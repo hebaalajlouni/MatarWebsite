@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Matar Project</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #E6B17D;
+        }
+        .header {
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+        }
+        .logo {
+            width: 150px;
+            height: 108px;
+        }
+        .formButton {
+          
+            background-color: #a47d57;
+            margin-right: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+
+        .formButton:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+         }
+        .linkForm:link, .linkForm:visited, .linkForm:hover, .linkForm:active{
+            text-decoration:none;
+            
+            padding: 0;
+            margin:0;
+            font-size: 15px;
+            
+          
+        }
+        .mainSection {
+            height: 80vh;
+            width: 99vw;
+            background-image: url('images/494026711_1100470478789303_6934904219508515193_n.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .contact {
+            text-align: center;
+        }
+        .socialMedia {
+            display: flex;
+            justify-content: space-evenly;
+            align-items:center;
+            margin-bottom:20px;
+        }
+        .facebook{
+            font-size: 35px;
+            color: blue;
+        }
+        .instgram {
+            font-size:35px;
+            color: #f54bdc;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="Images/شعار-مطر.png" />
+        <button class="formButton"><a class="linkForm" href="addmissionForm.html">Addmission form</a></button>
+    </header>
+    <main>
+        <div class="mainSection">
+        </div>
+        <div class="contact"><p>Contact us at </p></div>
+        <div class="socialMedia">
+            <a href="https://web.facebook.com/matarproject" target="_blank">
+                <ion-icon class="facebook" name="logo-facebook"></ion-icon>
+            </a>
+
+            <a href="https://www.instagram.com/matar_project" target="_blank">
+                <ion-icon class="instgram" name="logo-instagram"></ion-icon>
+            </a>
+        </div>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
