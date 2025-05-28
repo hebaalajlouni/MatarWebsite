@@ -68,10 +68,43 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="addmissionForm.html" />
+    <Content Include="commonStyles.css" />
+    <Content Include="ContactUs.html" />
+    <Content Include="Images\37685788_1805316509583528_3819052703053512704_n.jpg" />
+    <Content Include="Images\37700148_1805316616250184_8379359316209041408_n.jpg" />
+    <Content Include="Images\464591379_8647133992068378_7103969915730962832_n.jpg" />
+    <Content Include="Images\464929378_8644262872355490_6646940298891876280_n.jpg" />
+    <Content Include="Images\465022325_8645255512256226_4258252161266943548_n.jpg" />
+    <Content Include="Images\481905783_1057365599766458_2611443206702245249_n.jpg" />
+    <Content Include="Images\481971578_1057365393099812_977692556507561011_n.jpg" />
+    <Content Include="Images\481994474_1057375206432164_7096927826172422615_n.jpg" />
+    <Content Include="Images\482002391_1057375219765496_6339048846037236527_n.jpg" />
+    <Content Include="Images\486682522_4035785166653319_2015718925841466967_n.jpg" />
+    <Content Include="Images\71481666_2473444382770734_4760278628304945152_n.jpg" />
+    <Content Include="Images\78136629_2597693157012522_165378961272995840_n.jpg" />
+    <Content Include="Images\78790020_2597693283679176_2290040304113287168_n.jpg" />
+    <Content Include="OurStories.html" />
     <Content Include="Images\494026711_1100470478789303_6934904219508515193_n.jpg" />
+    <Content Include="Images\wave-haikei.png" />
+    <Content Include="Images\wave-haikei.svg" />
+    <Content Include="Images\wave-haikei1.svg" />
+    <Content Include="Images\wave-haikei2.svg" />
+    <Content Include="Images\wave-haikei3.svg" />
     <Content Include="Images\_١شعار-مطر---انجليزي.png" />
     <Content Include="Images\شعار-مطر.png" />
     <Content Include="Index.html" />
+    <Content Include="IndexStyle.css" />
+    <Content Include="videos\Facebook_2 %282%29.mp4" />
+    <Content Include="videos\Facebook_2 %283%29.mp4" />
+    <Content Include="videos\Facebook_2.mp4" />
+    <Content Include="videos\Facebook_21.mp4" />
+    <Content Include="videos\Facebook_3 %282%29.mp4" />
+    <Content Include="videos\Facebook_3 %283%29.mp4" />
+    <Content Include="videos\Facebook_3.mp4" />
+    <Content Include="videos\Facebook_4 %282%29.mp4" />
+    <Content Include="videos\Facebook_4 %283%29.mp4" />
+    <Content Include="videos\Facebook_4.mp4" />
+    <Content Include="videos\مشروع مطر   الأردن.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

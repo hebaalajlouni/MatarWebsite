@@ -3,80 +3,207 @@
 <head>
     <meta charset="utf-8" />
     <title>Matar Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+    <link href="IndexStyle.css" rel="stylesheet" />
+    <link href="commonStyles.css" rel="stylesheet" />
     <style>
-        body {
-            padding: 0;
-            margin: 0;
-            background-color: #E6B17D;
-        }
-        .header {
-            height: 80px;
-            display: flex;
-            justify-content: space-between;
-            padding: 5px;
-        }
-        .logo {
-            width: 150px;
-            height: 108px;
-        }
-        .formButton {
-          
-            background-color: #a47d57;
-            margin-right: 5px;
+        .titleSection {
+            margin: 20px;
             text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            cursor: pointer;
-            transition-duration: 0.4s;
+            font-size: 50px;
+            color: #d9b28d;
+            font-family: "WDXL Lubrifont TC", sans-serif;
         }
+        .videoTell {
+            margin: 50px;
+            display: flex;
+            justify-content: center;
+           
+        }
+        .video{
+            border-radius: 5%;
+            width:990px;
+        }
+        /*.gallary {
+            display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap:0;
+          row-gap:0;
+          align-items:center;
+          width: 100px;
+          justify-content: center;
+           
+        }
+        img{
+            width: 50%;
+        } */
+        .gallery {
+            height: 500px; 
+            position: relative;
+        }
+        .main-part {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 600px;
+            height: 150px;
+        }
+            .main-part li {
+                position: absolute;
+                height: 200px;
+                width: 200px;
+                transform: rotate(45deg);
+                background-color: #d9b28d;
+                opacity: 0.5;
+                overflow: hidden;
+                margin: -100px;
+                z-index: 2;
+            }
+        .main-part li:hover {
+                opacity: 1;
+        }
+        .main-part li.item1{
+            top: 0;
+            left: 0;
+        }
+        .main-part li.item2 {
+          bottom: 0;
+         left: 25%;
+        }
+        .main-part li.item3 {
+            top: 0;
+            left: 50%;
+        }
+       .main-part li.item4 {
+           bottom: 0;
+           left: 75%;
+       }
+      .main-part li.item5 {
+          top: 0;
+          left: 100%;
+      }
+      .main-part li.bg {
+          width: 100%;
+          height: 100%;
+          transform: scale(1.1);
+      }
+                .main-part li.item1 .bg {
+                    background: url('Images/481994474_1057375206432164_7096927826172422615_n.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
 
-        .formButton:hover {
-                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-         }
-        .linkForm:link, .linkForm:visited, .linkForm:hover, .linkForm:active{
-            text-decoration:none;
-            
-            padding: 0;
-            margin:0;
-            font-size: 15px;
-            
-          
-        }
-        .mainSection {
-            height: 80vh;
-            width: 99vw;
-            background-image: url('images/494026711_1100470478789303_6934904219508515193_n.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .contact {
-            text-align: center;
-        }
-        .socialMedia {
-            display: flex;
-            justify-content: space-evenly;
-            align-items:center;
-            margin-bottom:20px;
-        }
-        .facebook{
-            font-size: 35px;
-            color: blue;
-        }
-        .instgram {
-            font-size:35px;
-            color: #f54bdc;
-        }
+                .main-part li.item2 .bg {
+                    background: url('Images/465022325_8645255512256226_4258252161266943548_n.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .main-part li.item3 .bg {
+                    background: url('Images/482002391_1057375219765496_6339048846037236527_n.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .main-part li.item4 .bg {
+                    background: url('Images/71481666_2473444382770734_4760278628304945152_n.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .main-part li.item5 .bg {
+                    background-image: url('Images/78136629_2597693157012522_165378961272995840_n.jpg');
+                    background-size: cover;
+                    background-position: center;
+                }
     </style>
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="Images/شعار-مطر.png" />
-        <button class="formButton"><a class="linkForm" href="addmissionForm.html">Addmission form</a></button>
+        <nav class="navigation">
+            <div class="normalLinks">
+                <ul class="logoLinks">
+                    <li>
+                        <a href="Index.html"><img class="logo" src="Images/شعار-مطر.png" /></a>
+                    </li>
+                </ul>
+                <ul class="links">
+
+                    <li class="linkContainer">
+                        <a class="contactUS" href="ContactUs.html">Contact Us</a>
+                    </li>
+                    <li class="linkContainer">
+                        <a class="ourStories" href="OurStories.html">Our Stories</a>
+                    </li>
+                </ul>
+            </div>
+                <ul class="addmission">
+                    <li class="linkContainer">
+                        <a class="linkForm" href="addmissionForm.html">Addmission form</a>
+                    </li>
+                </ul>
+        </nav>
+        
     </header>
     <main>
-        <div class="mainSection">
-        </div>
+        <section class="mainSection">
+            <div class="textPage">
+                <h1 class="mainTitle">Matar Project</h1>
+                <p class="sideText">
+                    is a youth-led volunteer initiative that aims to support blind students in accessing education by recording and transcribing books so they can be read using screen readers. It also provides accompaniment services during school days, exams, or reading sessions over the phone. ❤️🌍
+                </p>
+            </div>
+      
+        </section>
+        <section class="titleSection">
+            <h1>who we are</h1>
+        </section>
+        <section class="videoTell">
+            <video class="video" controls="controls">
+                <source src="videos/Facebook_2%20(2).mp4" type="video/mp4" />
+            </video>
+
+        </section>
+        <section class="gallery" >
+            <!--<div class="gallary">
+                <img src="Images/481994474_1057375206432164_7096927826172422615_n.jpg" />
+                <img src="Images/37685788_1805316509583528_3819052703053512704_n.jpg" />
+                <img src="Images/37700148_1805316616250184_8379359316209041408_n.jpg" />
+                <img src="Images/464591379_8647133992068378_7103969915730962832_n.jpg" />
+                <img src="Images/464929378_8644262872355490_6646940298891876280_n.jpg" />
+                <img src="Images/465022325_8645255512256226_4258252161266943548_n.jpg" />
+                <img src="Images/481905783_1057365599766458_2611443206702245249_n.jpg" />
+                <img src="Images/71481666_2473444382770734_4760278628304945152_n.jpg" />
+                <img src="Images/78136629_2597693157012522_165378961272995840_n.jpg" />
+                <img src="Images/78790020_2597693283679176_2290040304113287168_n.jpg" />
+                <img src="Images/486682522_4035785166653319_2015718925841466967_n.jpg" />
+                <img src="Images/482002391_1057375219765496_6339048846037236527_n.jpg" />
+            </div>-->
+            <ul class="main-part">
+                <li class="item1">
+                    <div class="bg"></div>
+                </li>
+                <li class="item2">
+                    <div class="bg"></div>
+                </li>
+                <li class="item3">
+                    <div class="bg"></div>
+                </li>
+                <li class="item4">
+                    <div class="bg"></div>
+                </li>
+                <li class="item5">
+                    <div class="bg"></div>
+                </li>
+            </ul>
+            
+        </section>
         <div class="contact"><p>Contact us at </p></div>
         <div class="socialMedia">
             <a href="https://web.facebook.com/matarproject" target="_blank">

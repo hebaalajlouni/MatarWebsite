@@ -1,0 +1,72 @@
+﻿
+
+
+
+/*Main Section*/
+.mainSection {
+    height: 90vh;
+    width: 99vw;
+    /*background-image: url('images/wave-haikei1.svg');*/
+    /*background-image: url('images/wave-haikei.svg');*/
+    /*background-image: url('images/wave-haikei2.svg');*/
+    background-image: url('images/wave-haikei3.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mainTitle {
+    font-size: 100px;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.sideText {
+    font-size: 25px;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    text-wrap: wrap;
+    color: white;
+    width: 600px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imageBox {
+    margin-left: 10px;
+}
+
+.image {
+    width: 50%;
+    border-radius: 10%;
+    transform: rotateY(45deg);
+}
+
+.textPage {
+    align-content: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.facebook {
+    font-size: 35px;
+    color: blue;
+}
+
+.instgram {
+    font-size: 35px;
+    color: #f54bdc;
+}
