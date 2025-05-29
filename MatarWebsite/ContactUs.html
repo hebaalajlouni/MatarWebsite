@@ -2,10 +2,17 @@
 <html>
 <head>
     <link href="commonStyles.css" rel="stylesheet" />
+    <link href="commonStyles.css?v=1.1" rel="stylesheet" />
+    <link href="ContactUsStyle.css" rel="stylesheet" />
     <meta charset="utf-8" />
     <title>Contact Us</title>
+    <style>
+       
+    
+    </style>
 </head>
 <body>
+
     <header class="header">
         <nav class="navigation">
             <div class="normalLinks">
@@ -37,5 +44,108 @@
         </nav>
 
     </header>
+    <main class="mainBody">
+        <div class="backgroundContainer">
+            <div class="contactDetail">
+                <a href="addmissionForm.html" class="addTag" target="_blank">Join Us</a>
+                <ul class="contactInfo">
+                    <li class="title1">Contact US</li>
+
+                    <li>
+                        <div class="contact">
+                            <ion-icon name="call-outline"></ion-icon>
+                            <p>Telephone: 0799954</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="contact">
+                            <ion-icon name="mail-outline"></ion-icon><p>Emai: matar@gmail.com</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <p>Address: Jordan, Irbid</p>
+                        </div>
+
+                    </li>
+                </ul>
+                <div class="openHours">
+                    <h2 class="openTitle">
+                        Opening Hours
+                    </h2>
+                    <p ><q class="openText">We are available during day time all week</q> </p>
+                </div>
+                <form method="get" action="/" class="msgSend">
+                    <h2 class="msgTitle">To send us a Message</h2>
+                    <div class="msgBody">
+                        <div class="msgInput">
+                            <label>Name:</label>
+                            <input class="input" type="text" placeholder="Enter your name" />
+                        </div>
+                        <div class="msgInput">
+                            <label>Email:</label>
+                            <input class="input" type="email" placeholder="e***@gmail.com"/>
+                        </div>
+                </div>
+                 <div>
+                     <h3 class="msgInfo">Message:</h3>
+                     <input class="input" type="text" placeholder="Write Your Message"/>
+                 </div>
+                    <button class="submitButton" type="submit">Leave A comment</button>
+            </form>
+                    </div>
+            <div class="mainPicture">
+                <img  src="Images/481994474_1057375206432164_7096927826172422615_n.jpg" />
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+
+        <ul class="contactFooter">
+            <li class="footerTitle1">Contact US</li>
+
+            <li>
+                <div class="contactList">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <p>Telephone: 0799954</p>
+                </div>
+
+            </li>
+            <li>
+                <div class="contactList email">
+                    <ion-icon name="mail-outline"></ion-icon><p>Emai: matar@gmail.com</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="socialMedia">
+            <li class="footerTitle1">Social Media</li>
+            <li>
+                <a href="https://web.facebook.com/matarproject" target="_blank">
+                    <ion-icon class="facebook" name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/matar_project" target="_blank">
+                    <ion-icon class="instgram" name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <ul class="location ">
+            <li class="footerTitle1 loc">Our Location</li>
+            <li>
+                <div class="contactList">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <p>Address: Jordan, Irbid</p>
+                </div>
+
+            </li>
+        </ul>
+        <p class="copyReight">&copy; copy right reserved to Heba Alajlouni</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

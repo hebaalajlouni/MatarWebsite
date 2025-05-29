@@ -68,8 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="addmissionForm.html" />
+    <Content Include="addmissionFormStyle.css" />
     <Content Include="commonStyles.css" />
     <Content Include="ContactUs.html" />
+    <Content Include="ContactUsStyle.css" />
     <Content Include="Images\37685788_1805316509583528_3819052703053512704_n.jpg" />
     <Content Include="Images\37700148_1805316616250184_8379359316209041408_n.jpg" />
     <Content Include="Images\464591379_8647133992068378_7103969915730962832_n.jpg" />
@@ -83,6 +85,7 @@
     <Content Include="Images\71481666_2473444382770734_4760278628304945152_n.jpg" />
     <Content Include="Images\78136629_2597693157012522_165378961272995840_n.jpg" />
     <Content Include="Images\78790020_2597693283679176_2290040304113287168_n.jpg" />
+    <Content Include="Images\wave-haikei6.svg" />
     <Content Include="OurStories.html" />
     <Content Include="Images\494026711_1100470478789303_6934904219508515193_n.jpg" />
     <Content Include="Images\wave-haikei.png" />
@@ -94,6 +97,7 @@
     <Content Include="Images\شعار-مطر.png" />
     <Content Include="Index.html" />
     <Content Include="IndexStyle.css" />
+    <Content Include="ourStoriesStyles.css" />
     <Content Include="videos\Facebook_2 %282%29.mp4" />
     <Content Include="videos\Facebook_2 %283%29.mp4" />
     <Content Include="videos\Facebook_2.mp4" />

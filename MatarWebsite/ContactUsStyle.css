@@ -1,0 +1,104 @@
+﻿body::after {
+    content: "CSS loaded";
+    display: none;
+}
+.mainBody {
+    margin: 200px 50px 10px 50px;
+    height: 80vh;
+}
+
+.backgroundContainer {
+    border: 1px hidden;
+    box-shadow: 5px 5px 5px 3px #d9b28d;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.addTag {
+    text-decoration: none;
+    font-size: 35px;
+    padding: 20px;
+}
+
+    .addTag:link, .addTag:visited, .addTag:active, .addTag:hover {
+        color: #d9b28d;
+        font-family: "WDXL Lubrifont TC", sans-serif;
+    }
+
+.contactInfo {
+    list-style-type: none;
+    color: #ca9b74;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.title1 {
+    font-size: 20px;
+}
+
+
+.openHours, .msgSend {
+    padding: 8px 20px;
+}
+
+.openTitle, .msgTitle, .msgInfo {
+    color: #d9b28d;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+
+.openText {
+    color: #ca9b74;
+}
+
+.msgBody {
+    color: #ca9b74;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.msgInput {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    
+}
+
+.input {
+    border: none;
+    color: #ca9b74;
+}
+
+input::placeholder {
+    color: #ca9b74;
+    opacity: 0.5;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.submitButton {
+    border: none;
+    font-size: 25px;
+    margin-top: 15px;
+    background-color: #d9b28d;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px;
+    transition: 0.4s;
+}
+
+    .submitButton:hover {
+        background-color: #fff;
+        color: #d9b28d;
+        box-shadow: 0 5px 3px #d9b28d;
+    }

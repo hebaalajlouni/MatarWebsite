@@ -3,126 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <title>Matar Project</title>
+    <link href="IndexStyle.css" rel="stylesheet" />
+    <link href="commonStyles.css?v=1.1" rel="stylesheet" />
+
+    <link href="commonStyles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
-    <link href="IndexStyle.css" rel="stylesheet" />
-    <link href="commonStyles.css" rel="stylesheet" />
-    <style>
-        .titleSection {
-            margin: 20px;
-            text-align: center;
-            font-size: 50px;
-            color: #d9b28d;
-            font-family: "WDXL Lubrifont TC", sans-serif;
-        }
-        .videoTell {
-            margin: 50px;
-            display: flex;
-            justify-content: center;
-           
-        }
-        .video{
-            border-radius: 5%;
-            width:990px;
-        }
-        /*.gallary {
-            display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          column-gap:0;
-          row-gap:0;
-          align-items:center;
-          width: 100px;
-          justify-content: center;
-           
-        }
-        img{
-            width: 50%;
-        } */
-        .gallery {
-            height: 500px; 
-            position: relative;
-        }
-        .main-part {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            width: 600px;
-            height: 150px;
-        }
-            .main-part li {
-                position: absolute;
-                height: 200px;
-                width: 200px;
-                transform: rotate(45deg);
-                background-color: #d9b28d;
-                opacity: 0.5;
-                overflow: hidden;
-                margin: -100px;
-                z-index: 2;
-            }
-        .main-part li:hover {
-                opacity: 1;
-        }
-        .main-part li.item1{
-            top: 0;
-            left: 0;
-        }
-        .main-part li.item2 {
-          bottom: 0;
-         left: 25%;
-        }
-        .main-part li.item3 {
-            top: 0;
-            left: 50%;
-        }
-       .main-part li.item4 {
-           bottom: 0;
-           left: 75%;
-       }
-      .main-part li.item5 {
-          top: 0;
-          left: 100%;
-      }
-      .main-part li.bg {
-          width: 100%;
-          height: 100%;
-          transform: scale(1.1);
-      }
-                .main-part li.item1 .bg {
-                    background: url('Images/481994474_1057375206432164_7096927826172422615_n.jpg');
-                    background-size: cover;
-                    background-position: center;
-                }
 
-                .main-part li.item2 .bg {
-                    background: url('Images/465022325_8645255512256226_4258252161266943548_n.jpg');
-                    background-size: cover;
-                    background-position: center;
-                }
-
-                .main-part li.item3 .bg {
-                    background: url('Images/482002391_1057375219765496_6339048846037236527_n.jpg');
-                    background-size: cover;
-                    background-position: center;
-                }
-
-                .main-part li.item4 .bg {
-                    background: url('Images/71481666_2473444382770734_4760278628304945152_n.jpg');
-                    background-size: cover;
-                    background-position: center;
-                }
-
-                .main-part li.item5 .bg {
-                    background-image: url('Images/78136629_2597693157012522_165378961272995840_n.jpg');
-                    background-size: cover;
-                    background-position: center;
-                }
-    </style>
 </head>
 <body>
     <header class="header">
@@ -170,6 +61,11 @@
             </video>
 
         </section>
+        <section class="titleSection galleryTitle">
+            <h1>
+                A glimpse of Us
+            </h1>
+        </section>
         <section class="gallery" >
             <!--<div class="gallary">
                 <img src="Images/481994474_1057375206432164_7096927826172422615_n.jpg" />
@@ -204,16 +100,51 @@
             </ul>
             
         </section>
-        <div class="contact"><p>Contact us at </p></div>
-        <div class="socialMedia">
-            <a href="https://web.facebook.com/matarproject" target="_blank">
-                <ion-icon class="facebook" name="logo-facebook"></ion-icon>
-            </a>
+        <footer class="footer">
 
-            <a href="https://www.instagram.com/matar_project" target="_blank">
-                <ion-icon class="instgram" name="logo-instagram"></ion-icon>
-            </a>
-        </div>
+          <ul class="contactFooter">
+              <li class="footerTitle1">Contact US</li>
+              
+              <li>
+                  <div class="contactList">
+                      <ion-icon name="call-outline"></ion-icon>
+                      <p>Telephone: 0799954</p>
+                  </div>
+              
+              </li>
+              <li>
+                  <div class="contactList email">
+                        <ion-icon name="mail-outline"></ion-icon><p>Emai: matar@gmail.com</p>
+                  </div>
+              </li>
+          </ul>
+            <ul class="socialMedia">
+                <li class="footerTitle1">Social Media</li>
+                <li >
+                    <a href="https://web.facebook.com/matarproject" target="_blank">
+                        <ion-icon class="facebook" name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/matar_project" target="_blank">
+                        <ion-icon class="instgram" name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <ul class="location ">
+                <li class="footerTitle1 loc">Our Location</li>
+                <li>
+                    <div class="contactList">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <p>Address: Jordan, Irbid</p>
+                    </div>
+
+                </li>
+            </ul>
+            <p class="copyReight">&copy; copy right reserved to Heba Alajlouni</p>
+        </footer>
+        
+
     </main>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

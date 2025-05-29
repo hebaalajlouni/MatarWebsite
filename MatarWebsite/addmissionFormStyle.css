@@ -1,0 +1,99 @@
+﻿body::after {
+    content: "CSS loaded";
+    display: none;
+}
+
+.addmissionForm {
+    box-shadow: 0px 0px 10px #ca9b74;
+    margin: 200px 20px 10px 50px;
+    padding: 20px;
+    width: 89vw;
+    background-color: #d9b28d;
+}
+
+.headerTitle {
+    font-size: 35px;
+    color: #fff;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.personalTitle, .questionTitleStyle {
+    color: #fff;
+    font-size: 25px;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+
+.personalInfoStyle, .questionInfoStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.nameStyle, .phoneStyle, .emailStyle, .dateStyle, .genderStyle, .motivatedStyle, .similarStyle, .experienceStyle, .preferStyle, .dedicatedStyle, .examStyle, .connectStyle, .feedbackStyle, .fileStyle {
+    display: flex;
+    gap: 12px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input {
+    border: none;
+    border-radius: 7%;
+}
+
+    input::placeholder {
+        opacity: 0.4;
+    }
+
+    input:focus {
+        outline: none;
+        border: none;
+    }
+
+.questionInfoStyle {
+    margin-bottom: 25px;
+}
+
+.custom-btn {
+    background-color: #ca9b74;
+    color: white;
+    padding: 2px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+    .custom-btn:hover {
+        background-color: #d9b28d;
+    }
+
+#file-chosen {
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.buttonStyle {
+    text-align: center;
+}
+
+.submitButtom {
+    background-color: #ca9b74;
+    color: white;
+    padding: 2px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    width: 150px;
+    font-size: 25px;
+    height: 35px;
+}
+
+    .submitButtom:hover {
+        background-color: white;
+        color: #ca9b74;
+    }

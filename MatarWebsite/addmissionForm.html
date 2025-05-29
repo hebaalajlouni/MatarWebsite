@@ -3,6 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <link href="commonStyles.css" rel="stylesheet" />
+    <link href="commonStyles.css?v=1.1" rel="stylesheet" />
+    <link href="addmissionFormStyle.css" rel="stylesheet" />
+   
     <title>Admission Form</title>
 </head>
 <body>
@@ -37,134 +40,176 @@
         </nav>
 
     </header>
-    <form action="/" method="post">
-        <fieldset>
-
-            <legend class="legend">Matar Project</legend>
-            <img class="" src="Images/_١شعار-مطر---انجليزي.png" />
-
-            <h1 class="">
-                Matar Add Request
-            </h1>
-
-
-            <p>
-                
-            </p>
-            <hr />
-            <br />
-            <h2>Personal Information</h2>
-            <label>Full Name: </label>
-            <input type="text" placeholder="Ahmad" />
-            <br />
-            <br />
-            <label>Phone Number: </label>
-            <input type="number" placeholder="079***" />
-            <br />
-            <br />
-            <label>Email Address: </label>
-            <input type="email" placeholder="g***@gmail.com" />
-            <br />
-            <br />
-            <label>Date: </label>
-            <input type="date" />
-            <br />
-            <br />
-            <label>Choose Gender:</label>
-            <input type="radio" name="Gender" value="1" />
-            <label>Male</label>
-            <input type="radio" name="Gender" value="0" />
-            <label>Female</label>
-            <br />
-
-            <hr />
-            <h2>
+    <form action="/" method="post" class="addmissionForm">
+                <h1 class="headerTitle">
+                    Addmission Form 
+                </h1>
+            <h2 class="personalTitle">Personal Information</h2>
+        <div class="personalInfoStyle">
+            <div class="nameStyle">
+                <label>Full Name: </label>
+                <input type="text" placeholder="Enter your name" />
+            </div>
+            <div class="phoneStyle">
+                <label>Phone Number: </label>
+                <input type="number" placeholder="079***" />
+            </div>
+            <div class="emailStyle">
+                <label>Email Address: </label>
+                <input type="email" placeholder="g***@gmail.com" />
+            </div>
+            <div class="dateStyle">
+                <label>Date: </label>
+                <input type="date" />
+            </div>
+            <div class="genderStyle">
+                <label>Choose Gender:</label>
+                <input type="radio" name="Gender" value="1" />
+                <label>Male</label>
+                <input type="radio" name="Gender" value="0" />
+                <label>Female</label>
+            </div>
+        </div>
+            
+            
+            
+            
+            <h2 class="questionTitleStyle">
                 Form Questions
             </h2>
-            <label>
-                1. What motivated you to join Matar Project?
-            </label>
-            <br />
-            <br />
-            <input type="text" />
-            <br />
-            <br />
-            <label>
-                2. Have you volunteered with similar initiatives before?
-            </label>
-            <br />
-            <br />
-            <input type="text" />
-            <br />
-            <br />
-            <label>
-                3. Do you have experience in recording audio or proofreading texts?
-            </label>
-            <br />
-            <br />
-            <input type="text" />
-            <br />
-            <br />
-            <label>
-                4. Which type of volunteering would you prefer:
-            </label>
-            <br />
-            <br />
-            <input type="radio" name="volunteerType" value="2" />
-            <label>Audio recording</label>
-            <input type="radio" name="volunteerType" value="1" />
-            <label>Typing/transcribing</label>
-            <br />
-            <br />
-            <label>
-                5. How many hours per week can you dedicate to volunteering with Matar?
-            </label>
-            <br />
-            <br />
-            <input type="text" />
-            <br />
-            <br />
-            <label>
-                6. Are you available to support students during exam periods?
-            </label>
-            <br />
-            <br />
-            <input type="text" />
-            <br />
-            <br />
-            <label>
-                7. What’s your preferred communication method?
-            </label>
-            <input type="radio" name="communicationMethod" value="2" />
-            <label>WhatsApp</label>
-            <input type="radio" name="communicationMethod" value="1" />
-            <label>Telegram</label>
-            <input type="radio" name="communicationMethod" value="0" />
-            <label>Messenger</label>
-            <br />
-            <br />
-            <label>
-                8. Would you be open to receiving constructive feedback to improve quality?
-            </label>
-            <br />
-            <br />
-            <input type="text" />
-            <br />
-            <br />
-            <label>
-                9. Upload Some of your <bold>Word file</bold>?
-            </label>
-            <br />
-            <br />
-            <input type="file" />
-            <br />
-            <br />
-            <button type="submit">Submit</button>
-        </fieldset>
+            <div class="questionInfoStyle">
+                <div class="motivatedStyle">
+                    <label>
+                        1. What motivated you to join Matar Project?
+                    </label>
+
+                    <input type="text" />
+                </div>
+                
+                <div class="similarStyle">
+                    <label>
+                        2. Have you volunteered with similar initiatives before?
+                    </label>
+
+                    <input type="text" />
+                </div>
+                <div class="experienceStyle">
+                    <label>
+                        3. Do you have experience in recording audio or proofreading texts?
+                    </label>
+
+                    <input type="text" />
+                </div>
+                <div class="preferStyle">
+                    <label>
+                        4. Which type of volunteering would you prefer:
+                    </label>
+
+                    <input type="radio" name="volunteerType" value="2" />
+                    <label>Audio recording</label>
+                    <input type="radio" name="volunteerType" value="1" />
+                    <label>Typing/transcribing</label>
+                </div>
+                <div class="dedicatedStyle">
+                    <label>
+                        5. How many hours per week can you dedicate to volunteering with Matar?
+                    </label>
+
+                    <input type="text" />
+                </div>
+                <div class="examStyle">
+                    <label>
+                        6. Are you available to support students during exam periods?
+                    </label>
+
+                    <input type="text" />
+                </div>
+                <div class="connectStyle">
+                    <label>
+                        7. What’s your preferred communication method?
+                    </label>
+                    <input type="radio" name="communicationMethod" value="2" />
+                    <label>WhatsApp</label>
+                    <input type="radio" name="communicationMethod" value="1" />
+                    <label>Telegram</label>
+                    <input type="radio" name="communicationMethod" value="0" />
+                    <label>Messenger</label>
+                </div>
+                <div class="feedbackStyle">
+                    <label>
+                        8. Would you be open to receiving constructive feedback to improve quality?
+                    </label>
+
+                    <input type="text" />
+                </div>
+                <div class="fileStyle">
+                    <label>
+                        9. Upload Some of your <bold>Word file</bold>?
+                    </label>
+
+                    <div class="file-input-container">
+                        <input type="file" id="actual-btn" hidden />
+                        <label for="actual-btn" class="custom-btn">Choose File</label>
+                        <span id="file-chosen">No file chosen</span>
+                    </div>
+                </div>
+
+                
+            </div>
+            
+            <div class="buttonStyle">
+                <button class="submitButtom" type="submit">Submit</button>
+            </div>
+           
+       
     </form>
-    <br />
-    <a href="Index.html">Go to Home Page</a>
-    <br />
-    <br />
+    
+   
+    
+    <footer class="footer">
+
+        <ul class="contactFooter">
+            <li class="footerTitle1">Contact US</li>
+
+            <li>
+                <div class="contactList">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <p>Telephone: 0799954</p>
+                </div>
+
+            </li>
+            <li>
+                <div class="contactList email">
+                    <ion-icon name="mail-outline"></ion-icon><p>Emai: matar@gmail.com</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="socialMedia">
+            <li class="footerTitle1">Social Media</li>
+            <li>
+                <a href="https://web.facebook.com/matarproject" target="_blank">
+                    <ion-icon class="facebook" name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/matar_project" target="_blank">
+                    <ion-icon class="instgram" name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <ul class="location ">
+            <li class="footerTitle1 loc">Our Location</li>
+            <li>
+                <div class="contactList">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <p>Address: Jordan, Irbid</p>
+                </div>
+
+            </li>
+        </ul>
+        <p class="copyReight">&copy; copy right reserved to Heba Alajlouni</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
