@@ -23,17 +23,17 @@ const changeTitleWhenHover = function (title,message) {
 changeTitleWhenHover(contactUs, contactMessageIn);
 changeTitleWhenHover(ourStory, ourStoriesMessageIn);
 changeTitleWhenHover(addmission, addmissionMessageIn);
-const changeTitleWhenHoverOut = function (title, message) {
+const changeTitleWhenHoverOut = function (title, message, originalText) {
     title.addEventListener("mouseout", () => {
         title.innerHTML = message;
         timeoutId = setTimeout(() => {
-            title.innerHTML = originalTextContact;
+            title.innerHTML = originalText;
         }, 1000);
     });
 }
-changeTitleWhenHoverOut(contactUs, contactMessageOut);
-changeTitleWhenHoverOut(ourStory, ourStoriesMessageOut);
-changeTitleWhenHoverOut(addmission, addmissionMessageOut);
+changeTitleWhenHoverOut(contactUs, contactMessageOut, originalTextContact);
+changeTitleWhenHoverOut(ourStory, ourStoriesMessageOut, originalTextOurStories);
+changeTitleWhenHoverOut(addmission, addmissionMessageOut, originalTextAddmission);
 
 submitButton.addEventListener("click", function (event) {
     event.preventDefault(); 
